@@ -7,7 +7,7 @@ from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 from rest_framework.views import APIView
 
-openai.api_key = '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'
+openai.api_key = 'API KEY'
 
 @method_decorator(csrf_exempt,name='dispatch')
 class chatbot_response(APIView):
